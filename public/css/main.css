@@ -1,0 +1,52 @@
+body {
+    background-color: #FFFFFF;
+}
+
+.app {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
+
+.ui.menu {
+    margin-top: 0;
+}
+
+.ui.main.container {
+    margin-top: 2em;
+}
+
+.ui.footer.segment {
+    margin: 5em 0em 0em;
+}
+
+.home-page__container {
+    margin-top: 20%;
+}
+
+.add-btn {
+    float: right;
+    margin-top: 10px !important;
+}
+
+.td form {
+    display: inline;
+}
+
+.remove-btn {
+    display: inline-block;
+    position: absolute;
+    right: 8px;
+    top: 7px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: red;
+}
